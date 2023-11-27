@@ -1,0 +1,6 @@
+[submodule "External/ios-cmake"]
+	path = External/ios-cmake
+	url = https://github.com/leetal/ios-cmake.git
+[submodule "External/liberlang"]
+	path = External/liberlang
+	url = https://github.com/erlang/otp.git
