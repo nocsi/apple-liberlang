@@ -25,8 +25,8 @@ import PackageDescription
 let package = Package(
     name: "Erlang",
     platforms: [
-        .iOS(.v13),
-        .macOS(.v10_13)
+        .iOS(.v17),
+        .macOS(.v13)
     ],
     products: [
         .library(
@@ -59,7 +59,7 @@ let package = Package(
         ),
         .binaryTarget(
             name: "liberlang",
-            url: "https://github.com/nocsi/liberlang-apple/releases/download/0.1.0/liberlang.zip",
+            url: "https://github.com/nocsi/apple-liberlang/releases/download/0.1.0/liberlang.zip",
             checksum: "488ea08d20ea4a651f56d271e8f793e92f07dd03e77447ab8dfd8846680a9cae"
         )
     ]
